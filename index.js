@@ -28,3 +28,13 @@ console.log(sum);
 
 
 
+//Program to say Hello to all elements from array use key of loop
+
+
+const users = ['user1', 'user2', 'user3', 'user4', 'user5']
+
+for (const user of users)
+{
+    console.log(`Hello ${user}`)
+}
+
